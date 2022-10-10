@@ -1,0 +1,86 @@
+.form_container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.596);
+    backdrop-filter: blur(2px);
+    position: fixed;
+    top:0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.form{
+    position: relative;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/409/781/non_2x/technology-blue-background-free-vector.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    min-width: 310px;
+    box-shadow: 0px 0px 10px -3px white;
+}
+.form:hover{
+    transform: scale(1.1);
+    transition: transform 500ms ease-in;
+
+}
+.form_container_label_input{
+    display: flex;
+    flex-direction: column;
+    gap:5px
+}
+.form_x{
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 18px;
+    color: red;
+    cursor: pointer;
+}
+.form_x:hover{
+    transform: scale(1.1);
+    transition: transform 400ms ease;
+}
+.form_input{
+    outline: none;
+    border: 1px solid rgb(77, 127, 202);
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(129, 195, 197, 0.6);
+    color: rgb(1, 35, 87);
+    font-weight: 600;
+}
+.form_input::placeholder{
+    color:  rgba(129, 195, 197);
+}
+.form_button{
+    border-radius: 5px;
+    background-color: rgba(98, 183, 240, 0.6);
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    box-shadow: 1px 1px 3px rgba(252, 248, 248, 0.726);
+    margin-top: 10px;
+}
+.form_button:hover{
+    transform: scale(1.03);
+    transition: transform 100ms ease;
+    filter: brightness(1.2);
+}
+.form_label{
+    font-weight: 700;
+    color: white;
+}
+.form_title{
+    color: rgb(255, 255, 255, 0.8);
+}
+.disable_form{
+    display: none;
+}

@@ -1,0 +1,131 @@
+body{
+    background-image: url(https://wallpaperaccess.com/full/3580676.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif   ;
+}
+.title_web{
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+}
+.CardUser_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1021px;
+}
+
+.carduser{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-image: url(https://us.123rf.com/450wm/doozydo/doozydo1810/doozydo181001227/126652431-fondo-de-navidad-de-estrellas-m%C3%A1gicas-sutiles-copos-de-nieve-voladores-y-estrellas-sobre-fondo-azul-.jpg?ver=6);
+    background-color: rgb(0, 0, 0, 0.6);
+    background-position: center ;
+    background-size: cover;
+    padding: 20px;
+    width:300px;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.39);
+}
+.carduser:hover{
+    transform: scale(1.08);
+    transition: transform 400ms ease;
+    box-shadow: 4px 4px 10px -1px rgba(226, 216, 222, 0.781);  
+}
+.carduser_title{
+    border-bottom: 2px solid rgba(135, 154, 238, 0.3);
+    padding-bottom: 7px;
+    margin-bottom: 6px;
+    font-size: 22px;
+}
+.carduser_info{
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 18px;
+}
+.carduser_button_container{
+    display: flex;
+    flex-direction: row-reverse;   
+    gap: 10px;
+}
+.button_delete, .button_update{
+    padding: 7px;
+    font-size: 20px;
+    border-radius: 8px;
+    color: rgba(0, 0, 0, 0.733);
+    box-shadow: 1px 1px 3px -1px rgba(255, 255, 255, 0.397);
+    color: rgba(255, 255, 255, 0.37);
+}
+.button_delete:hover, .button_update:hover, .button_create_web:hover{ 
+    transform: scale(1.07);
+    transition: transform 100ms ease;
+    filter: brightness(1.2);
+}
+.button_delete{
+    background-color: rgb(238, 80, 80);
+}
+.button_update{
+    background-color: rgb(80, 154, 238);
+}
+.cabecera_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+}
+.button_create_web{
+    border-radius: 5px;
+    background-color: rgba(12, 56, 122, 0.7);
+    padding: 10px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.767);
+    box-shadow: 0 0 7px rgba(255, 255, 255, 0.658);
+    margin-top: 10px;
+}
+.deleteuser_cointainer{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.596);
+    backdrop-filter: blur(2px);
+    position: fixed;
+    top:0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.delete{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/409/781/non_2x/technology-blue-background-free-vector.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 10px -3px white;
+    color: white
+}
+.delete:hover{
+    transform: scale(1.1);
+    transition: transform 500ms ease-in;
+
+}
+.disable_deleteuser{
+    display: none;
+}
